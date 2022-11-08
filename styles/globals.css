@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .rounded-custom {
+    @apply rounded-tr-2xl rounded-bl-2xl;
+  }
+}
